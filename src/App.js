@@ -8,6 +8,9 @@ import Footer from './components/Footer/Footer';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 function App() {
   return (
     <Container>
@@ -17,8 +20,17 @@ function App() {
         </Grid>
         <Grid  item xs>
           <Header/>
-          <Portfolio/>
-          <Resume/>
+          <Router>
+            <Switch>
+            <Route path='/portfolio'>
+              <Portfolio/>
+            </Route>
+            <Route path='/'>
+             <Resume/>
+            </Route>
+            </Switch>
+            
+          </Router>
           <Footer/>
         </Grid>
       </Grid>
