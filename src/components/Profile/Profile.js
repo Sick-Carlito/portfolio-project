@@ -63,7 +63,7 @@ const Profile = () => {
             />
           ))}
         </CustomTimeline>
-        <div className='button_container'>
+        <div className='button_containe'>
           <CustomButton text={'Download Cv'} icon={ <GetAppIcon />} />
         </div>
         
