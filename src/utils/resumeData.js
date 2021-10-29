@@ -14,6 +14,43 @@ export default {
   phone: "+254 704 965 601",
 
   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \n\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+  experiences: [
+    {
+      title: 'Work 1',
+      date: '2016 - present',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    },
+    {
+      title: 'Work 2',
+      date: '2016 - present',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    },
+    {
+      title: 'Work 3',
+      date: 'Aug 2016 - Dec 2018',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    }
+  ],
+
+  educations: [
+    {
+      title: 'Education 1',
+      date: '2016 - present',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    },
+    {
+      title: 'Education 2',
+      date: '2016 - present',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    },
+    {
+      title: 'Education 3',
+      date: 'Aug 2016 - Dec 2018',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    }
+  ],
+
   socials: {
     Facebook: {
       link: "https://www.facebook.com",
