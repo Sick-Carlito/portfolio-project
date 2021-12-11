@@ -4,7 +4,9 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import WebOutlined from "@material-ui/icons/WebOutlined";
-import { AssignmentOutlined } from "@material-ui/icons";
+import { AssignmentOutlined, YouTube } from "@material-ui/icons";
+import GitHub from "@material-ui/icons/GitHub";
+import LinkedIn from "@material-ui/icons/LinkedIn";
 
 export default {
   name: "Carl",
@@ -117,6 +119,84 @@ export default {
       description: ['Git', 'GitHub ', 'SCRUM/Agile'],
       
     },
+],
+
+  projects: [{
+    tag: 'React',
+    images: ['https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRR3rRiMu6znXqGwJi9AEo_ZAIPE32FhG-Jg&usqp=CAU'
+            ],
+    title: 'Project 1',
+    caption: 'Short description of the project',
+    description: 'This is my personal projectThis is my personal project',
+    links: [{
+      link: 'https//www.google.com', icon: <YouTube />
+    },
+    {
+      link: 'https//www.google.com', icon: <GitHub />
+    },
+    {
+      link: 'https//www.google.com', icon: <LinkedIn />
+    },
+  ],
+  },
+  {
+    tag: 'Ruby on rails',
+   images: ['https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRR3rRiMu6znXqGwJi9AEo_ZAIPE32FhG-Jg&usqp=CAU'
+            ],
+    title: 'Project 1',
+    caption: 'Short description of the project',
+    description: 'This is my personal projectThis is my personal project',
+    links: [{
+      link: 'https//www.google.com', icon: <YouTube />
+    },
+    {
+      link: 'https//www.google.com', icon: <GitHub />
+    },
+    {
+      link: 'https//www.google.com', icon: <LinkedIn />
+    },
+  ],
+  },
+  {
+    tag: 'Python',
+    images: ['https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRR3rRiMu6znXqGwJi9AEo_ZAIPE32FhG-Jg&usqp=CAU'
+            ],
+    title: 'Project 1',
+    caption: 'Short description of the project',
+    description: 'This is my personal projectThis is my personal project',
+    links: [{
+      link: 'https//www.google.com', icon: <YouTube />
+    },
+    {
+      link: 'https//www.google.com', icon: <GitHub />
+    },
+    {
+      link: 'https//www.google.com', icon: <LinkedIn />
+    },
+  ],
+  },
+  {
+    tag: 'React',
+    images: ['https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRR3rRiMu6znXqGwJi9AEo_ZAIPE32FhG-Jg&usqp=CAU'
+            ],
+    title: 'Project 1',
+    caption: 'Short description of the project',
+    description: 'This is my personal projectThis is my personal project',
+    links: [{
+      link: 'https//www.google.com', icon: <YouTube />
+    },
+    {
+      link: 'https//www.google.com', icon: <GitHub />
+    },
+    {
+      link: 'https//www.google.com', icon: <LinkedIn />
+    },
+  ],
+  }
 ],
   
 
