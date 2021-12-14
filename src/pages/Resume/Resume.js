@@ -180,12 +180,7 @@ const Resume = () => {
             </Grid>
             <Grid item xs={12}>
               <Grid container>
-                <Grid item xs={12}>
-                  <Typography className='contactInfo_item'>
-                    <span>Address: </span>{resumeData.address}
-                  </Typography>
-
-                </Grid>
+          
                 <Grid item xs={12}>
                   <Typography className='contactInfo_item'>
                     <span>Email: </span>{resumeData.email}
@@ -200,13 +195,20 @@ const Resume = () => {
                 </Grid>
                 <Grid item xs={12}>
                   <Typography className='contactInfo_item'>
-                    <span>Address: </span>{resumeData.address}
+                    <span>GitHub: </span>{resumeData.github}
                   </Typography>
 
                 </Grid>
                 <Grid item xs={12}>
                   <Typography className='contactInfo_item'>
-                    <span>Address: </span>{resumeData.address}
+                    <span>Twitter: </span>{resumeData.twitter}
+                  </Typography>
+
+                </Grid>
+
+                <Grid item xs={12}>
+                  <Typography className='contactInfo_item'>
+                    <span>LinkedIn: </span>{resumeData.linkedin}
                   </Typography>
 
                 </Grid>

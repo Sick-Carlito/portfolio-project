@@ -89,7 +89,7 @@ const Portfolio = () => {
         </Grid>
       </Grid>
 
-      <Dialog fullWidth maxWidth={'lg'} className='projectDialog' open={projectDialog} onClose={()=> setProjectDialog(false)}>
+      <Dialog maxWidth={'lg'} className='projectDialog' open={projectDialog} onClose={()=> setProjectDialog(false)}>
           <DialogTitle onClose={()=> setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
           
           <DialogContent style={{height: '80vh'}} >
