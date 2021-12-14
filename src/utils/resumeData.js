@@ -71,7 +71,7 @@ export default {
 
   educations: [
     {
-      title: 'MASENO UNIVERSITY (Computer Science, BSc)',
+      title: 'MASENO UNIVERSITY qq(Computer Science, BSc)',
       date: '2012 - 2017',
       description: <ul>
                       <li>I have gained great collaborative skills working with other student.</li>
