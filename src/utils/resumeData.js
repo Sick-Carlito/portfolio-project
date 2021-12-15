@@ -240,7 +240,7 @@ export default {
     caption: 'Second portfolio project built using ReactJS ',
     description: 'This project was bootstrapped with Create React App.It is a portfolio project that shows different aspects of coding with ReactJS including working with Grids and building resusable react components',
     links: [{
-      link: 'https//www.google.com', icon: <YouTube />
+      link: 'https://sick-carlito.github.io/portfolio-project/', icon: <LanguageOutlinedIcon />
     },
     {
       link: 'https://github.com/Sick-Carlito/portfolio-project', icon: <GitHub />
